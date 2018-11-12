@@ -1,0 +1,27 @@
+.header {
+  background-color: aqua;
+}
+
+.body {
+  background-color: lightsalmon;
+}
+
+.footer {
+  background-color: fuchsia;
+}
+
+.arti {
+  background-color: yellowgreen;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  margin: 0 auto;
+}
+
+.apphdr {
+  align-content: center;
+}

@@ -1,0 +1,23 @@
+<mat-toolbar bgcolor="black">
+    <mat-toolbar-row>
+        <button mat-icon-button routerLink="/">
+            <mat-icon>home</mat-icon> EMS
+        </button>
+
+        <span class="example-spacer">Application Dashboard</span>
+
+        <a mat-stroked-button routerLink="/login">Logout
+            <mat-icon class="example-icon">person</mat-icon>
+        </a>
+    </mat-toolbar-row>
+</mat-toolbar>
+<div fxFill fxLayout="column">
+    <div fxFlex fxLayout="row" class="body">
+        <div fxShow=”true” fxHide.lt-sm=”true” fxFlex="1 6 20%">
+            <app-admn-dashboard-nav></app-admn-dashboard-nav>
+        </div>
+        <div class="arti" fxFlex>
+            <app-body-placeholder></app-body-placeholder>
+        </div>
+    </div>
+</div>

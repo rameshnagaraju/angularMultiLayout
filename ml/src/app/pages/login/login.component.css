@@ -1,0 +1,26 @@
+.wrapper {
+  z-index: -2;
+  min-height: 100%;
+  background: url(../../../assets/intro.jpg) no-repeat center top;
+  background-size: cover;
+  margin-top: 0;
+  padding: 10%;
+}
+
+.my-card {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 20%;
+  background-color: black;
+  color: rgb(12, 95, 204);
+}
+
+.my-form {
+  width: 100%;
+  background-color: black;
+  color: rgb(12, 95, 204);
+}
+
+.full-width {
+  flex: 1;
+}

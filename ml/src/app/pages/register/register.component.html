@@ -1,0 +1,38 @@
+<div class="wrapper">
+    <mat-card class="my-card">
+
+        <mat-card-title class="my-card-header">
+            <p>Register</p>
+        </mat-card-title>
+
+        <mat-card-content>
+            <form [formGroup]="registrationForm" class="my-form">
+                <mat-form-field class="full-width">
+                    <mat-label>First Name</mat-label>
+                    <input matInput formControlName="fname" placeholder="First name">
+                </mat-form-field>
+                <mat-form-field class="full-width">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput formControlName="lname" placeholder="Last Name">
+                </mat-form-field>
+
+                <mat-form-field class="full-width">
+                    <mat-form-field>
+                        <input matInput formControlName="email" placeholder="Enter your email" required>
+                    </mat-form-field>
+                </mat-form-field>
+                <mat-form-field class="full-width">
+                    <mat-label>Password</mat-label>
+                    <input matInput formControlName="password" placeholder="Password" required>
+                </mat-form-field>
+                <mat-form-field class="full-width">
+                    <mat-label>Confirm Password</mat-label>
+                    <input matInput formControlName="confirmPassword" placeholder="ConfirmPassword" required>
+                </mat-form-field>
+            </form>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="register()" color="primary">Submit</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

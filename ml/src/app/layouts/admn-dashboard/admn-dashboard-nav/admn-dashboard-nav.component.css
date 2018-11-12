@@ -1,0 +1,28 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sidemenu {
+  background-color: black;
+  height: 100%;
+}
+
+#sidemenu ul li {
+  color: white;
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid white;
+}
+
+#sidemenu ul li a {
+  color: white;
+}

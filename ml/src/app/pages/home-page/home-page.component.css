@@ -1,0 +1,18 @@
+#myVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+.content {
+  align-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  color: #f1f1f1;
+  padding: 20px;
+}
